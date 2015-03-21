@@ -1,0 +1,157 @@
+
+body {
+  border: 0;
+  margin: 0;
+  background: #f8f8f8;
+  color: #888;
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 16pt;
+  font-weight: 400;
+}
+
+#header {
+  background-color: #2a2825;
+  height: 100%;
+  left: 0;
+  padding-top: 8em;
+  position: fixed;
+  text-align: left;
+  top: 0;
+  width: 25%;
+}
+
+#header p {
+  padding-left: 2em;
+}
+
+#footer {
+  bottom: 0;
+  left: 0;
+  padding: 0 0 2em 0;
+  position: fixed;
+  text-align: right;
+  width: 25%;
+}
+
+#icons {
+  margin-right: 1em;
+}
+
+#footer a {
+  color: lightgrey;
+}
+
+.cmd {
+  color: #888;
+  font-family: "Consolas", monospace;
+  font-size: 16px;
+}
+
+.resp, #main_content a, .language, #img_cont, #img_cont img {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: 	  all 0.5s ease-out;
+  -ms-transition:     all 0.5s ease-out;
+  -o-transition:      all 0.5s ease-out;
+  transition:         all 0.5s ease-out; 
+}
+
+
+.resp {
+  color: #ccc;
+  font-size: 24px;
+}
+
+.resp:hover {
+    color: #f8f8f8;
+}
+
+#img_cont {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 2em;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+#img_cont img {
+  display: inline;
+  width: 100px;
+  height: 100px;
+}
+
+#img_cont:hover, #img_cont img:hover {
+  width: 200px;
+  height: 200px;
+}
+
+#main_content {
+  background: #f8f8f8;
+  height: 100%;
+  left: 25%;
+  padding: 5em 1em 0 0;
+  padding-left: 30%;
+  position:inherit;
+  text-align: left;
+  top: 0;
+  font-weight: 300;
+  font-size: 22px;
+  overflow-y: auto;
+}
+
+#main_content h1 {
+  color: #777;
+  font-family: "Consolas", monospace;
+  font-weight: 500;
+  padding-top: 1em;
+}
+
+#main_content a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #888;
+  margin-right: 10px;
+}
+
+#main_content p {
+  padding-bottom: 40px;
+}
+
+#main_content a:hover {
+  text-shadow: 2px 2px 4px #eee;
+  color: #444;
+}
+
+#about {
+  max-width: 800px;
+}
+
+#projects {
+  max-width: 800px;
+}
+
+.language {
+  font-size: 16px;
+  padding: 1px 3px 1px 3px;
+  border-radius: 5px;
+  color: #fff;
+  opacity: 0.25;
+}
+
+.language:hover {
+  opacity: 1;
+}
+
+#python     { background: #3581ba; }
+#antlr4     { background: #9dc3ff; }
+#html       { background: #e44b23; }
+#css        { background: #563d7c; }
+#javascript { background: #f1e05a; }
+#c          { background: #555555; }
+#java       { background: #b07219; }
+#shell      { background: #89e051; }
